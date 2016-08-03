@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="SWiVE-Team">
+
+    <title>Wepot</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li class="sidebar-brand"><a href="index.html">首頁(Home)</a></li>
+				<li class="sidebar-brand"><a href="loginOrRegister.html">登錄/註冊(Login/Register)</a>
+				</li>
+				<li class="sidebar-brand"><a href="about.html">關於我們(About)</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /#sidebar-wrapper -->
+
+		<!-- Page Content -->
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<!-- Toggle Menu -->
+				<div class="row">
+					<a href="#menu-toggle" class="btn btn-default pull-right"
+						id="menu-toggle">Toggle Menu</a>
+				</div>
+
+				<div class="row">
+					<!-- 登錄panel -->
+					<div class="panel panel-default col-lg-4">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<h1>登錄</h1>
+							</div>
+						</div>
+						<div class="panel-body">
+
+							<form class="form-horizontal">
+
+								<div class="form-group">
+									<label class="col-sm-4 control-label">使用者(username)</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" id=""
+											placeholder="username">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-sm-4 control-label">密碼(Password)</label>
+									<div class="col-sm-8">
+										<input type="password" class="form-control" id=""
+											placeholder="password">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<div class="col-sm-offset-2 col-sm-10">
+											<input type="radio" name="gender" value="supply" checked>
+											<label>供給方</label> <input type="radio" name="gender"
+												value="demand"> <label>需求方</label>
+										</div>
+										<button id="login" type="submit"
+											class="btn btn-primary pull-right">登錄(Sign in)</button>
+									</div>
+								</div>
+
+							</form>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="row">
+					<div class="panel panel-default col-md-6">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<h2>
+									供給方
+									<button type="button" id="supplyRegister"
+										class=" btn pull-right btn-lg btn-info" type="button">註冊</button>
+								</h2>
+							</div>
+						</div>
+						<div class="panel-body">供給方的敘述</div>
+
+					</div>
+
+					<div class="panel panel-default col-md-6">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<h2>
+									需求方
+									<button type="button" id="demandRegister"
+										class=" btn pull-right btn-lg btn-warning" type="button">註冊</button>
+								</h2>
+							</div>
+						</div>
+						<div class="panel-body">需求方的敘述</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<!-- /#page-content-wrapper -->
+
+	</div>
+	<!-- /#wrapper -->
+
+	<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    <!-- Menu Toggle Script -->
+    $(function () {
+    	$("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        
+		$("#login").click(function(){
+			var value = $("input[name=gender]:checked ").val();
+			if (value == "supply") {
+				location.href="supplyIndex.html";
+				return false;
+			} else {
+				location.href="demandIndex.html";
+				return false;
+			}
+		});
+
+		$("#supplyRegister").click(function(){
+			location.href="supplyRegister.html";
+			return false;
+		});
+
+	    $("#demandRegister").click(function(){
+			location.href="demandRegister.html";
+			return false;
+		});
+	});
+    </script>
+
+</body>
+
+</html>
