@@ -1,0 +1,7 @@
+下載嘉義縣物資儲備所清冊http://data.gov.tw/node/27280
+開啟後此csv檔後會發現有些村的名字有?號
+查詢有出現?的村里實際村名並修正csv檔的內容
+使用R將被切割的縣市鄉鎮地址重組成完整的地址
+利用ggmap套件串接google map API取得各地址的lat/lng
+將原資料的data.table新增欄位並將所得的lat/lng輸入進此data.table中
+

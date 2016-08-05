@@ -1,0 +1,1211 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "1",
+        "storage_name": "中崙4鄰村長宅",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "中崙村",
+        "location": "4鄰26號",
+        "address": "嘉義縣中埔鄉中崙村4鄰26號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5622379,23.374477]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "2",
+        "storage_name": "東興村7鄰鄰長宅",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "東興村",
+        "location": "7鄰八寶寮6號",
+        "address": "嘉義縣中埔鄉東興村7鄰八寶寮6號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5389592,23.3481899]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "3",
+        "storage_name": "東興派出所",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "東興村",
+        "location": "3鄰13號",
+        "address": "嘉義縣中埔鄉東興村3鄰13號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5451797,23.3526295]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "4",
+        "storage_name": "中埔鄉公所",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "中埔村",
+        "location": "128號",
+        "address": "嘉義縣中埔鄉中埔村128號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5264703,23.4222641]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "5",
+        "storage_name": "灣潭村7鄰民宅",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "灣潭村",
+        "location": "7鄰凍腳4號",
+        "address": "嘉義縣中埔鄉灣潭村7鄰凍腳4號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5797128,23.4201728]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "6",
+        "storage_name": "中崙村6鄰前鄰長宅",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "中崙村",
+        "location": "6鄰中崙嶺6號",
+        "address": "嘉義縣中埔鄉中崙村6鄰中崙嶺6號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5682028,23.3691037]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "7",
+        "storage_name": "中崙村7鄰鄰長宅",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "中崙村",
+        "location": "7鄰40號",
+        "address": "嘉義縣中埔鄉中崙村7鄰40號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5622379,23.374477]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "8",
+        "storage_name": "中崙村8鄰鄰長宅",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "中崙村",
+        "location": "8鄰石壁頭1號",
+        "address": "嘉義縣中埔鄉中崙村8鄰石壁頭1號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.562417,23.373895]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "9",
+        "storage_name": "中崙村9鄰鄰長宅",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "中崙村",
+        "location": "9鄰石壁頭8號",
+        "address": "嘉義縣中埔鄉中崙村9鄰石壁頭8號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5633144,23.3730025]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "10",
+        "storage_name": "石硦村1鄰鄰長宅",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "石硦村",
+        "location": "1鄰永富4號",
+        "address": "嘉義縣中埔鄉石硦村1鄰永富4號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5932226,23.3835919]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "11",
+        "storage_name": "石硦村4鄰鄰長宅",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "石硦村",
+        "location": "4鄰石仔湖31號",
+        "address": "嘉義縣中埔鄉石硦村4鄰石仔湖31號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5682028,23.4012336]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "12",
+        "storage_name": "中山國小藤寮仔童軍營區",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "石硦村",
+        "location": "6鄰藤寮仔54號",
+        "address": "嘉義縣中埔鄉石硦村6鄰藤寮仔54號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5682028,23.4012336]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "13",
+        "storage_name": "東興村長青會長宅",
+        "contact_window": "戴孟穎",
+        "contact_number": "05-2533321#105",
+        "city/county": "嘉義縣",
+        "township": "中埔鄉",
+        "village": "東興村",
+        "location": "5鄰凍仔頂25號",
+        "address": "嘉義縣中埔鄉東興村5鄰凍仔頂25號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5394551,23.3572646]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "14",
+        "storage_name": "光華社區活動中心",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "光華村",
+        "location": "5鄰27-1號",
+        "address": "嘉義縣竹崎鄉光華村5鄰27-1號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6602534,23.4777083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "15",
+        "storage_name": "金獅村芊蓁坑",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "金獅村",
+        "location": "8鄰16號",
+        "address": "嘉義縣竹崎鄉金獅村8鄰16號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6228659,23.5152406]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "16",
+        "storage_name": "金獅村出水坑",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "金獅村",
+        "location": "4鄰42號",
+        "address": "嘉義縣竹崎鄉金獅村4鄰42號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6228659,23.5152406]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "17",
+        "storage_name": "金獅村東湖仔",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "金獅村",
+        "location": "7鄰17號",
+        "address": "嘉義縣竹崎鄉金獅村7鄰17號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6228659,23.5152406]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "18",
+        "storage_name": "仁壽村塘湖",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "仁壽村",
+        "location": "10鄰27號",
+        "address": "嘉義縣竹崎鄉仁壽村10鄰27號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6487508,23.5230108]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "19",
+        "storage_name": "仁壽村辦公處",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "仁壽村",
+        "location": "2鄰30號",
+        "address": "嘉義縣竹崎鄉仁壽村2鄰30號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6487508,23.5230108]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "20",
+        "storage_name": "仁壽國小仁光分校教室",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "仁壽村",
+        "location": "8鄰20之3號",
+        "address": "嘉義縣竹崎鄉仁壽村8鄰20之3號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6487508,23.5230108]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "21",
+        "storage_name": "仁壽村7鄰水社寮民宅",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "仁壽村",
+        "location": "7鄰1-1號",
+        "address": "嘉義縣竹崎鄉仁壽村7鄰1-1號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6487508,23.5230108]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "22",
+        "storage_name": "文峰村大坑12鄰",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "文峰村",
+        "location": "12鄰大坑73號",
+        "address": "嘉義縣竹崎鄉文峰村12鄰大坑73號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.617113,23.5004285]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "23",
+        "storage_name": "文峰村大坑15鄰",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "文峰村",
+        "location": "15鄰大坑21號",
+        "address": "嘉義縣竹崎鄉文峰村15鄰大坑21號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.617113,23.5004285]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "24",
+        "storage_name": "中華社區活動中心",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "中和村",
+        "location": "12鄰164號",
+        "address": "嘉義縣竹崎鄉中和村12鄰164號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6947551,23.4916291]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "25",
+        "storage_name": "中和村石棹",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "中和村",
+        "location": "19鄰13號",
+        "address": "嘉義縣竹崎鄉中和村19鄰13號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6947551,23.4916291]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "26",
+        "storage_name": "中和村永和",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "中和村",
+        "location": "21鄰5號",
+        "address": "嘉義縣竹崎鄉中和村21鄰5號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6947551,23.4916291]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "27",
+        "storage_name": "竹崎鄉公所柑農中心",
+        "contact_window": "蘇素蓮",
+        "contact_number": "05-2611010#142",
+        "city/county": "嘉義縣",
+        "township": "竹崎鄉",
+        "village": "竹崎村",
+        "location": "中山路59之1號",
+        "address": "嘉義縣竹崎鄉竹崎村中山路59之1號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5512467,23.5229117]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "28",
+        "storage_name": "太和村村辦公處",
+        "contact_window": "林育正",
+        "contact_number": "05-2622121#182",
+        "city/county": "嘉義縣",
+        "township": "梅山鄉",
+        "village": "太和村",
+        "location": "2鄰蛤里味5-1號",
+        "address": "嘉義縣梅山鄉太和村2鄰蛤里味5-1號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.728063,23.5383789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "29",
+        "storage_name": "太和村仁和國小",
+        "contact_window": "林育正",
+        "contact_number": "05-2622121#182",
+        "city/county": "嘉義縣",
+        "township": "梅山鄉",
+        "village": "太和村",
+        "location": "社前湖6號",
+        "address": "嘉義縣梅山鄉太和村社前湖6號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.724524,23.556302]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "30",
+        "storage_name": "太和村太和國小",
+        "contact_window": "林育正",
+        "contact_number": "05-2622121#182",
+        "city/county": "嘉義縣",
+        "township": "梅山鄉",
+        "village": "太和村",
+        "location": "3鄰18號",
+        "address": "嘉義縣梅山鄉太和村3鄰18號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.7177509,23.5401234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "31",
+        "storage_name": "農產品展示中心",
+        "contact_window": "林育正",
+        "contact_number": "05-2622121#182",
+        "city/county": "嘉義縣",
+        "township": "梅山鄉",
+        "village": "瑞峰村",
+        "location": "2鄰外寮47之2號",
+        "address": "嘉義縣梅山鄉瑞峰村2鄰外寮47之2號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.659037,23.563102]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "32",
+        "storage_name": "瑞里村村辦公處",
+        "contact_window": "林育正",
+        "contact_number": "05-2622121#182",
+        "city/county": "嘉義縣",
+        "township": "梅山鄉",
+        "village": "瑞里村",
+        "location": "5鄰55號",
+        "address": "嘉義縣梅山鄉瑞里村5鄰55號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.671755,23.5394221]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "33",
+        "storage_name": "龍眼村活動中心",
+        "contact_window": "林育正",
+        "contact_number": "05-2622121#182",
+        "city/county": "嘉義縣",
+        "township": "梅山鄉",
+        "village": "龍眼村",
+        "location": "龍眼林3之1號",
+        "address": "嘉義縣梅山鄉龍眼村龍眼林3之1號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.634371,23.5823212]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "34",
+        "storage_name": "碧湖村活動中心",
+        "contact_window": "林育正",
+        "contact_number": "05-2622121#182",
+        "city/county": "嘉義縣",
+        "township": "梅山鄉",
+        "village": "碧湖村",
+        "location": "6鄰堀尺嶺9之1號",
+        "address": "嘉義縣梅山鄉碧湖村6鄰堀尺嶺9之1號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6286186,23.5675146]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "35",
+        "storage_name": "太興村活動中心",
+        "contact_window": "林育正",
+        "contact_number": "05-2622121#182",
+        "city/county": "嘉義縣",
+        "township": "梅山鄉",
+        "village": "太興村",
+        "location": "4鄰青園5號",
+        "address": "嘉義縣梅山鄉太興村4鄰青園5號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.634371,23.5448595]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "36",
+        "storage_name": "太平村活動中心",
+        "contact_window": "林育正",
+        "contact_number": "05-2622121#182",
+        "city/county": "嘉義縣",
+        "township": "梅山鄉",
+        "village": "太平村",
+        "location": "1鄰大坪43號",
+        "address": "嘉義縣梅山鄉太平村1鄰大坪43號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5620906,23.5811656]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "37",
+        "storage_name": "梅山鄉公所",
+        "contact_window": "林育正",
+        "contact_number": "05-2622121#182",
+        "city/county": "嘉義縣",
+        "township": "梅山鄉",
+        "village": "梅北村",
+        "location": "中山路282號",
+        "address": "嘉義縣梅山鄉梅北村中山路282號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.555685,23.5852408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "38",
+        "storage_name": "大湖村活動中心",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "大湖村",
+        "location": "大湖村火燒寮1-1號",
+        "address": "嘉義縣番路鄉大湖村大湖村火燒寮1-1號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6257423,23.4744752]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "39",
+        "storage_name": "大湖國小",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "大湖村",
+        "location": "大湖村下坪仔8號",
+        "address": "嘉義縣番路鄉大湖村大湖村下坪仔8號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6257423,23.4744752]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "40",
+        "storage_name": "公田鄰長劉高對宅",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "公田村",
+        "location": "公田村8鄰濫田仔5號",
+        "address": "嘉義縣番路鄉公田村公田村8鄰濫田仔5號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6487508,23.4480903]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "41",
+        "storage_name": "公田村活動中心",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "公田村",
+        "location": "公田村6鄰大路仔32號",
+        "address": "嘉義縣番路鄉公田村公田村6鄰大路仔32號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6487508,23.4480903]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "42",
+        "storage_name": "隙頂國小",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "公田村",
+        "location": "公田村6鄰隙頂40號",
+        "address": "嘉義縣番路鄉公田村公田村6鄰隙頂40號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6487508,23.4480903]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "43",
+        "storage_name": "鄧寬仁宅",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "公田村",
+        "location": "公田村2鄰龍頭16-10號",
+        "address": "嘉義縣番路鄉公田村公田村2鄰龍頭16-10號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6487508,23.4480903]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "44",
+        "storage_name": "梅園樓物資存放預備地點",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "公田村",
+        "location": "公田村2鄰龍頭19-6號",
+        "address": "嘉義縣番路鄉公田村公田村2鄰龍頭19-6號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6487508,23.4480903]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "45",
+        "storage_name": "公興村長宅",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "公興村",
+        "location": "公興村2鄰龍美46-8號",
+        "address": "嘉義縣番路鄉公興村公興村2鄰龍美46-8號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6257423,23.4209502]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "46",
+        "storage_name": "鄰長宅（近福安宮）",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "公興村",
+        "location": "公興村4鄰中寮41號",
+        "address": "嘉義縣番路鄉公興村公興村4鄰中寮41號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6257423,23.4209502]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "47",
+        "storage_name": "社區理事長宅",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "公興村",
+        "location": "公興村7鄰腦寮19號",
+        "address": "嘉義縣番路鄉公興村公興村7鄰腦寮19號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6257423,23.4209502]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "48",
+        "storage_name": "前村長宅",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "公興村",
+        "location": "公興村7鄰腦寮3號",
+        "address": "嘉義縣番路鄉公興村公興村7鄰腦寮3號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5902464,23.2987398]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "49",
+        "storage_name": "草山村長宅",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "草山村",
+        "location": "草山村4鄰半嶺9-5號",
+        "address": "嘉義縣番路鄉草山村草山村4鄰半嶺9-5號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6142365,23.3699026]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "50",
+        "storage_name": "永興國小",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "草山村",
+        "location": "草山村7鄰永興22號",
+        "address": "嘉義縣番路鄉草山村草山村7鄰永興22號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6142365,23.3699026]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "51",
+        "storage_name": "草山村朝天宮",
+        "contact_window": "陳采函",
+        "contact_number": "05-2591951#137",
+        "city/county": "嘉義縣",
+        "township": "番路鄉",
+        "village": "草山村",
+        "location": "草山村2鄰號",
+        "address": "嘉義縣番路鄉草山村草山村2鄰號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5931654,23.2949615]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "52",
+        "storage_name": "公有零售市場",
+        "contact_window": "李兆隆",
+        "contact_number": "05-2521310#18",
+        "city/county": "嘉義縣",
+        "township": "大埔鄉",
+        "village": "大埔村",
+        "location": "大埔162-9號",
+        "address": "嘉義縣大埔鄉大埔村大埔162-9號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6142365,23.3699026]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "53",
+        "storage_name": "圖書館",
+        "contact_window": "李兆隆",
+        "contact_number": "05-2521310#18",
+        "city/county": "嘉義縣",
+        "township": "大埔鄉",
+        "village": "大埔村",
+        "location": "大埔53之2號",
+        "address": "嘉義縣大埔鄉大埔村大埔53之2號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6257423,23.4209502]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "54",
+        "storage_name": "坪林分校",
+        "contact_window": "李兆隆",
+        "contact_number": "05-2521310#18",
+        "city/county": "嘉義縣",
+        "township": "大埔鄉",
+        "village": "茄苳村",
+        "location": "8鄰坪林24號",
+        "address": "嘉義縣大埔鄉茄苳村8鄰坪林24號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6084832,23.2480074]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "55",
+        "storage_name": "西興活動中心",
+        "contact_window": "李兆隆",
+        "contact_number": "05-2521310#18",
+        "city/county": "嘉義縣",
+        "township": "大埔鄉",
+        "village": "西興村",
+        "location": "3鄰菜瓜坪4之1號",
+        "address": "嘉義縣大埔鄉西興村3鄰菜瓜坪4之1號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5763176,23.2449958]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "56",
+        "storage_name": "埔頂集會所",
+        "contact_window": "李兆隆",
+        "contact_number": "05-2521310#18",
+        "city/county": "嘉義縣",
+        "township": "大埔鄉",
+        "village": "永樂村",
+        "location": "4鄰埔頂13-1號",
+        "address": "嘉義縣大埔鄉永樂村4鄰埔頂13-1號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5624474,23.3221434]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "57",
+        "storage_name": "永樂村長家",
+        "contact_window": "李兆隆",
+        "contact_number": "05-2521310#18",
+        "city/county": "嘉義縣",
+        "township": "大埔鄉",
+        "village": "永樂村",
+        "location": "7鄰南寮11號",
+        "address": "嘉義縣大埔鄉永樂村7鄰南寮11號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5573948,23.3411559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "58",
+        "storage_name": "聯合村辦公處",
+        "contact_window": "湯鈞",
+        "contact_number": "05-2562547#170",
+        "city/county": "嘉義縣",
+        "township": "阿里山鄉",
+        "village": "中正村",
+        "location": "52號",
+        "address": "嘉義縣阿里山鄉中正村52號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.8183077,23.5101932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "59",
+        "storage_name": "十字村辦公處",
+        "contact_window": "湯鈞",
+        "contact_number": "05-2562547#170",
+        "city/county": "嘉義縣",
+        "township": "阿里山鄉",
+        "village": "十字村",
+        "location": "52號",
+        "address": "嘉義縣阿里山鄉十字村52號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6654821,23.2985026]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "60",
+        "storage_name": "豐山村辦公處",
+        "contact_window": "湯鈞",
+        "contact_number": "05-2562547#170",
+        "city/county": "嘉義縣",
+        "township": "阿里山鄉",
+        "village": "豐山村",
+        "location": "47號",
+        "address": "嘉義縣阿里山鄉豐山村47號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.738416,23.5423403]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "61",
+        "storage_name": "來吉村辦公處",
+        "contact_window": "湯鈞",
+        "contact_number": "05-2562547#170",
+        "city/county": "嘉義縣",
+        "township": "阿里山鄉",
+        "village": "來吉村",
+        "location": "97號",
+        "address": "嘉義縣阿里山鄉來吉村97號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.7637298,23.5835797]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "62",
+        "storage_name": "樂野村辦公處",
+        "contact_window": "湯鈞",
+        "contact_number": "05-2562547#170",
+        "city/county": "嘉義縣",
+        "township": "阿里山鄉",
+        "village": "樂野村",
+        "location": "56號",
+        "address": "嘉義縣阿里山鄉樂野村56號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.7062535,23.4570375]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "63",
+        "storage_name": "達邦村辦公處",
+        "contact_window": "湯鈞",
+        "contact_number": "05-2562547#170",
+        "city/county": "嘉義縣",
+        "township": "阿里山鄉",
+        "village": "達邦村",
+        "location": "101號",
+        "address": "嘉義縣阿里山鄉達邦村101號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.7809676,23.4354677]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "64",
+        "storage_name": "里佳村辦公處",
+        "contact_window": "湯鈞",
+        "contact_number": "05-2562547#170",
+        "city/county": "嘉義縣",
+        "township": "阿里山鄉",
+        "village": "里佳村",
+        "location": "52號",
+        "address": "嘉義縣阿里山鄉里佳村52號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.7201098,23.4056487]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "65",
+        "storage_name": "山美村辦公處",
+        "contact_window": "湯鈞",
+        "contact_number": "05-2562547#170",
+        "city/county": "嘉義縣",
+        "township": "阿里山鄉",
+        "village": "山美村",
+        "location": "51號",
+        "address": "嘉義縣阿里山鄉山美村51號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6684836,23.3844878]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "66",
+        "storage_name": "新美村辦公處",
+        "contact_window": "湯鈞",
+        "contact_number": "05-2562547#170",
+        "city/county": "嘉義縣",
+        "township": "阿里山鄉",
+        "village": "新美村",
+        "location": "66號",
+        "address": "嘉義縣阿里山鄉新美村66號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6838628,23.3380344]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "67",
+        "storage_name": "茶山村辦公處",
+        "contact_window": "湯鈞",
+        "contact_number": "05-2562547#170",
+        "city/county": "嘉義縣",
+        "township": "阿里山鄉",
+        "village": "茶山村",
+        "location": "74號",
+        "address": "嘉義縣阿里山鄉茶山村74號"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6654821,23.2985026]
+      }
+    }
+  ]
+}
