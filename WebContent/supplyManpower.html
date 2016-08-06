@@ -71,8 +71,37 @@
                         <h1>人力資源倉庫(SupplyManpower)</h1>
                     </div>
                 </div>
+                
                 <div class="row">
                 	<div id="calendar"></div>
+    			</div>
+
+				<div class="row">
+					<div class="col-lg-4">
+					<table class="table table-hover col-lg-6" id="manpowerlist">
+						<tbody>
+							<tr>
+								<td>已供應人力</td>
+								<td><label id="manpowerNumber"></label></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+				</div>
+
+				<div class="row" style="padding-top: 10px">
+                	<form class="form-inline" id="list">
+	                    <div class="form-group" >
+	                    	<label class="col-sm-3 control-label">供應人力</label>
+	                    	<div class="col-sm-7">
+		                    	<input type="number" class="form-control" id="number" placeholder="數量">
+		                    </div>
+		                    <div class="col-sm-2">
+			                    <button id="createList" type="button" class="btn btn-danger">建立</button>
+		                    </div>
+		                    
+	                    </div>
+                    </form>
     			</div>
             </div>
         </div>
@@ -94,17 +123,40 @@
     <!-- Menu Toggle Script -->
     <script>
     $(function () {
+        var temp;
 	    $("#menu-toggle").click(function(e) {
 	        e.preventDefault();
 	        $("#wrapper").toggleClass("toggled");
 	    });
 
 	    $("#calendar").fullCalendar({
-	    	dayClick: function() {
-	            alert('a day has been clicked!');
-	        }
+	    	header:{
+		    	left:   'title',
+	    	 	center: '',
+	    	    right:  'today prev,next'
+		    },
+		    height: 500,
+		    dayClick: function dayClick (date, jsEvent, view) {
+		        // change the day's background color just for fun
+		        temp = $(this);
+		        $("#list").hide();
+			    $("#manpowerlist").hide();
+		        $("#list").show();
+		    },
 	    })
+
+	    $("#createList").click(function(){
+	    	temp.css('background-color', 'red');
+	    	$("#manpowerlist").show();
+	    	$("#manpowerNumber").text($("#number").val());
+		});
+	    
+	    $("#list").hide();
+	    $("#manpowerlist").hide();
+	    
     });
+
+    
     </script>
 
 </body>
