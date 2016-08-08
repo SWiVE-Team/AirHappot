@@ -55,8 +55,8 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
-            
-				<div class="row pull-right">
+            	
+            	<div class="row pull-right">
 	            	<!-- Toggle Menu -->
 					<a href="#menu-toggle" class="btn btn-default " id="menu-toggle">Toggle Menu</a>&nbsp;
 				
@@ -65,102 +65,68 @@
 	               		<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 	               	</button>
             	</div>
-            	
+            
                 <div class="row">
+                
                     <div class="col-lg-12">
-                        <h1>My Depot</h1>
+                        <h1>需求物品排名</h1>
                     </div>
-                </div>
-                
-                <div class="row">
-					<div class="panel panel-default col-lg-12">
-						<div class="panel-heading">
-							<div class="panel-title">
-								<h1>系統通知</h1>
-							</div>
-						</div>
-						<div class="panel-body">
-							<table id="systemMessageList" class="table table-hover">
-							<thead>
-								<tr>
-									<td>日期</td>
-									<td>訊息內容</td>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>2016-08-08</td>
-									<td>系統配對通知：已提供 XXX 需求物品 YY 物品數量 N 個，需求方已收到</td>
-								</tr>
-								<tr>
-									<td>2016-08-07</td>
-									<td>系統配對通知：已提供 XXX 需求物品 YY 物品數量 N 個，物品已送出</td>
-								</tr>
-								<tr>
-									<td>2016-08-03</td>
-									<td>系統配對通知： XXX 需求物品 YY 數量為 N</td>
-								</tr>
-							</tbody>
-						</table>
-
-							
-						</div>
-					</div>
+                        
 				</div>
-                
-   				<div class="row">
-					<div class="col-lg-12">
-						<table id="newsList" class="table table-hover">
-						<caption>需求物品資訊</caption>
-							<thead>
-								<tr>
-									<td>Item</td>
-									<td>Number</td>
-									<td>Date</td>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>laptop</td>
-									<td>2</td>
-									<td>2016-08-08</td>
-								</tr>
-								<tr>
-									<td>laptop</td>
-									<td>1</td>
-									<td>2016-08-06</td>
-								</tr>
-								<tr>
-									<td>telephone</td>
-									<td>1</td>
-									<td>2016-08-04</td>
-								</tr>
-								<tr>
-									<td>telephone</td>
-									<td>3</td>
-									<td>2016-08-04</td>
-								</tr>
-								<tr>
-									<td>clothes</td>
-									<td>12</td>
-									<td>2016-08-02</td>
-								</tr>
-								<tr>
-									<td>telephone</td>
-									<td>1</td>
-									<td>2016-08-01</td>
-								</tr>
-								<tr>
-									<td>cup</td>
-									<td>3</td>
-									<td>2016-07-28</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
+				<div class="row">
+                    <table class="table table-hover">
+                    	<thead>
+                    		<tr>
+                    			<td>物品<td>
+                    			<td>最近一次需求時間<td>
+                    			<td>頻率<td>
+                    			<td>每次平均需求量<td>
+                    			<td>緊急程度<td>
+                    		</tr>
+						</thead>
+	                    <tbody>
+	                    	<tr>
+                    			<td>laptop<td>
+                    			<td>2016-08-01<td>
+                    			<td>每月<td>
+                    			<td>3<td>
+                    			<td>黃<td>
+                    		</tr>
+                    		<tr>
+                    			<td>telephone<td>
+                    			<td>2016-07-30<td>
+                    			<td>每月<td>
+                    			<td>3<td>
+                    			<td>黃<td>
+                    		</tr>
+                    		<tr>
+                    			<td>clothes<td>
+                    			<td>2016-07-27<td>
+                    			<td>每週<td>
+                    			<td>21<td>
+                    			<td>紅<td>
+                    		</tr>
+                    		<tr>
+                    			<td>television<td>
+                    			<td>2016-08-05<td>
+                    			<td>每季<td>
+                    			<td>4<td>
+                    			<td>青<td>
+                    		</tr>
+                    		<tr>
+                    			<td>cup<td>
+                    			<td>2016-08-03<td>
+                    			<td>每週<td>
+                    			<td>7<td>
+                    			<td>黃<td>
+                    		</tr>
+						</tbody>
+					</table>
+                    
 				</div>
-                
             </div>
+            
+            
         </div>
         <!-- /#page-content-wrapper -->
         
@@ -175,9 +141,12 @@
 
     <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
+    $(function () {
+	    $("#menu-toggle").click(function(e) {
+	        e.preventDefault();
+	        $("#wrapper").toggleClass("toggled");
+	    });
+
     });
     </script>
 

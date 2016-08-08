@@ -83,40 +83,64 @@
     			</div>
 
 				<div class="row">
+
+					<div class="col-lg-6">
+						<div class="panel panel-default col-lg-8">
+							<table id="list" class="table table-hover">
+								<thead>
+									<tr>
+										<td>日期</td>
+										<td>所需數量</td>
+										<td>已達數量</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><label id="currentDate"></label></td>
+										<td><input class="text-right" id="" type="text"
+											placeholder="3" disabled>
+											<button id="" name="btn" type="button"
+												class="btn btn-warning">更改</button></td>
+										<td>1</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
 					<div class="col-lg-6">
 						<table id="searchList" class="table table-hover">
 							<thead>
 								<tr>
 									<td>Volunteer Number</td>
 									<td>Depoter</td>
-									<td></td>
+									<td >需求數量</td>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
 									<td>11</td>
 									<td>社福基金委員會</td>
-									<td><button id="" name="btn" type="button"
-											class="btn btn-warning">iRequest</button></td>
+									<td><input class="text-right col-lg-2" id="" type="number">&nbsp;
+										<button id="" name="btn" type="button" class="btn btn-warning">iRequest</button></td>
 								</tr>
 								<tr>
 									<td>2</td>
 									<td>台北市電腦公會</td>
-									<td><button id="" name="btn" type="button"
-											class="btn btn-warning">iRequest</button></td>
+									<td><input class="text-right col-lg-2" id="" type="number">&nbsp;
+										<button id="" name="btn" type="button" class="btn btn-warning">iRequest</button></td>
 								</tr>
 								<tr>
 									<td>3</td>
 									<td>聯合大學</td>
-									<td><button id="" name="btn" type="button"
-											class="btn btn-warning">iRequest</button></td>
+									<td><input class="text-right col-lg-2" id="" type="number">&nbsp;
+										<button id="" name="btn" type="button" class="btn btn-warning">iRequest</button></td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
 				</div>
-				
-            </div>
+			</div>
         </div>
         <!-- /#page-content-wrapper -->
         
@@ -153,10 +177,13 @@
 		        // change the day's background color just for fun
 		        temp = $(this);
 		        $("#searchList").show();
+		        $("#list").show();
+		        $("#currentDate").text(date.format());
 		    },
 	    })
 
 	    $("#searchList").hide();
+	    $("#list").hide();
 	    
     });
 
