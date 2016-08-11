@@ -63,21 +63,33 @@ p{
 
 				<div class="row">
 					<div class="col-lg-12">
-						<h1>AirHappot<img src="./lib/cupertino/images/myLogo.PNG" align="right" style="width:200px;height:145px;"></h1>
+						<h1>AirHappot
+							<img src="./lib/cupertino/images/NewLogo.PNG" align="right" style="width:240px;height:180px;">
+							<img src="./lib/cupertino/images/myLogo.PNG" align="right" style="width:240px;height:180px;">
+						</h1>						
 						
 						<h2 class="text-left"><font color = "red">Love</font>, we share 
 											  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											  <font color = "#7AB8CC">Share</font>, we love</h2>
+											  <font color = "#7AB8CC">Share</font>, we love</h2>												
 						
-						<span>
+						<br>
+						<div class="col-lg-12 " style="padding-bottom: 15px">
+							<button id="content-1-Btn" type="button" class="btn btn-danger" style="width:170px;height:35px;">AirHappot is for ...</button>
+						</div>
+						<div id="content-1">
 							<h3 class="text-middle"></h3>							
 							<p class="text-left" >Due to the disability of matching supply and demand in time, AirHappot can 
 												improve the efficiency of matching public spare goods and volunteer 
 												resources with charity needs by achieving higher visibility of material idle 
 												status and future needs. It can also be used for pre-disaster prevention 
 												purpose, if needed.</p>
-						</span>					
-						<span>
+						</div>
+						
+						<br>
+						<div class="col-lg-12 " style="padding-bottom: 15px">
+							<button id="content-2-Btn" type="button" class="btn btn-danger" style="width:170px;height:35px;">AirHappot is doing ...</button>
+						</div>						
+						<div id="content-2" class="table table-hover">
 							<h3 class="text-middle"></h3>							
 							<p class="text-left" >AirHappot provides an online partitioned virtual space for every individual. 
 												Each depot can be further divided into several virtual areas. Providers, whom we 
@@ -89,7 +101,7 @@ p{
 												external resources for better minimize long term wastage. AirHappot also supports 
 												large-scale data collection and online analysis to reveal the utilization and 
 												distribution performances of products. </p>
-						</span>					
+						</div>					
 					</div>
 				</div>
 			</div>
@@ -107,10 +119,25 @@ p{
 
     <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+	$(function () {
+		$("#menu-toggle").click(function(e) {
+			e.preventDefault();
+			$("#wrapper").toggleClass("toggled");				
+		});
+		
+		$("#content-1-Btn").click(function(){
+		    $("#content-1").show();
+	    });
+		
+		$("#content-1").hide();
+		
+		$("#content-2-Btn").click(function(){
+		    $("#content-2").show();
+	    });
+		
+		$("#content-2").hide();
+	
+	});
     </script>
 
 </body>
