@@ -46,7 +46,7 @@ p{
                     <a href="loginOrRegister.html">Login/Sign up</a>
                 </li>
                 <li class="sidebar-brand">
-                    <a href="matchChart.html">Match chart</a>
+                    <a href="matchChart.html">SmartChart</a>
                 </li>
                 <li class="sidebar-brand">
                     <a href="about.html">About us</a>
@@ -73,25 +73,29 @@ p{
 				<div class="row">
 					<div class="col-lg-6">
 						<div id="chartNorth" ></div>
-						<h3 class="text-center">半年加總次數：56</h3>
+						<h3 class="text-center">Total Hook Count in Half Year：521</h3>
 					</div>
 					
 					<div class="col-lg-6">
 						<div id="chartSouth" ></div>
-						<h3 class="text-center">半年加總次數：79</h3>
+						<h3 class="text-center">Total Hook Count in Half Year：317</h3>
 					</div>
 				</div>
 				<br><br><br><br><br><br><br><br>
 				<div class="row">
 					<div class="col-lg-6">
 						<div id="chartCenter" ></div>
-						<h3 class="text-center">半年加總次數：43</h3>
+						<h3 class="text-center">Total Hook Count in Half Year：446</h3>
 					</div>
 					
 					<div class="col-lg-6">
 						<div id="chartEast" ></div>
-						<h3 class="text-center">半年加總次數：73</h3>
+						<h3 class="text-center">Total Hook Count in Half Year：419</h3>
 					</div>
+				</div>
+				
+				<div>
+					<h2><a href="https://aiien61will.shinyapps.io/dashboardApp1/" target="_blank">More Details ...</a></h2>
 				</div>
 				
 			</div>
@@ -144,17 +148,18 @@ p{
 	function drawChartNorth() {
 
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Visitations', { role: 'style' } ],
-          ['6', 10, 'color: #76A7FA'],
-          ['7', 8, 'color: #76A7FA'],
-          ['8', 12, 'color: #76A7FA'],
-          ['9', 12, 'color: #76A7FA'],
-          ['10', 14, 'color: #76A7FA']
+          ['Month', 'Hook', { role: 'style' } ],
+          ['7', 30, 'color: #76A7FA'],
+          ['8', 58, 'color: #76A7FA'],
+          ['9', 72, 'color: #76A7FA'],
+          ['10', 112, 'color: #76A7FA'],
+          ['11', 104, 'color: #76A7FA'],
+          ['12', 145, 'color: #76A7FA']
         ]);
 
         var options = {
-	        title: "Area 北部",
-	        width: 800,
+	        title: "Northern Area",
+	        width: 700,
 	        height: 500,
 	        bar: {groupWidth: "95%"},
 	        legend: { position: "none" },
@@ -167,17 +172,18 @@ p{
     function drawChartSouth() {
 
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Visitations', { role: 'style' } ],
-          ['6', 10, 'color: #76A7FA'],
-          ['7', 12, 'color: #76A7FA'],
-          ['8', 13, 'color: #76A7FA'],
-          ['9', 16, 'color: #76A7FA'],
-          ['10', 28, 'color: #76A7FA']
+          ['Month', 'Hook', { role: 'style' } ],
+          ['7', 20, 'color: #76A7FA'],
+          ['8', 22, 'color: #76A7FA'],
+          ['9', 43, 'color: #76A7FA'],
+          ['10', 56, 'color: #76A7FA'],
+          ['11', 78, 'color: #76A7FA'],
+          ['12', 98, 'color: #76A7FA']
         ]);
 
         var options = {
-	        title: "Area 南部",
-	        width: 800,
+	        title: "Southern Area",
+	        width: 700,
 	        height: 500,
 	        bar: {groupWidth: "95%"},
 	        legend: { position: "none" },
@@ -190,17 +196,18 @@ p{
     function drawChartCenter() {
 
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Visitations', { role: 'style' } ],
-          ['6', 4, 'color: #76A7FA'],
-          ['7', 8, 'color: #76A7FA'],
-          ['8', 7, 'color: #76A7FA'],
-          ['9', 11, 'color: #76A7FA'],
-          ['10', 13, 'color: #76A7FA']
+          ['Month', 'Hook', { role: 'style' } ],
+          ['7', 34, 'color: #76A7FA'],
+          ['8', 58, 'color: #76A7FA'],
+          ['9', 67, 'color: #76A7FA'],
+          ['10', 81, 'color: #76A7FA'],
+          ['11', 93, 'color: #76A7FA'],
+          ['12', 113, 'color: #76A7FA']
         ]);
 
         var options = {
-	        title: "Area 中部",
-	        width: 800,
+	        title: "Central Area",
+	        width: 700,
 	        height: 500,
 	        bar: {groupWidth: "95%"},
 	        legend: { position: "none" },
@@ -213,17 +220,18 @@ p{
     function drawChartEast() {
 
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Visitations', { role: 'style' } ],
-          ['6', 15, 'color: #76A7FA'],
-          ['7', 14, 'color: #76A7FA'],
-          ['8', 12, 'color: #76A7FA'],
-          ['9', 16, 'color: #76A7FA'],
-          ['10', 16, 'color: #76A7FA']
+          ['Month', 'Hook', { role: 'style' } ],
+          ['7', 35, 'color: #76A7FA'],
+          ['8', 34, 'color: #76A7FA'],
+          ['9', 62, 'color: #76A7FA'],
+          ['10', 76, 'color: #76A7FA'],
+          ['11', 96, 'color: #76A7FA'],
+          ['11', 116, 'color: #76A7FA']
         ]);
 
         var options = {
-	        title: "Area 東部",
-	        width: 800,
+	        title: "Eastern Area",
+	        width: 700,
 	        height: 500,
 	        bar: {groupWidth: "95%"},
 	        legend: { position: "none" },
