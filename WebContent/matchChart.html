@@ -66,36 +66,45 @@ p{
 
 				<div class="row">
 					<div class="col-lg-12">
-						<h1>Match chart</h1>						
+						<h1>Smart Chart</h1>						
+					</div>
+				</div>
+				
+				<div>
+					<div class="col-lg-10">
+						<h3 style="color:gray">Total Hook Counts in Past 6 Months</h1>						
 					</div>
 				</div>
 				
 				<div class="row">
 					<div class="col-lg-6">
 						<div id="chartNorth" ></div>
-						<h3 class="text-center">Total Hook Count in Half Year：521</h3>
+						<h3 class="text-center">Total Hook Counts : <font color="red">521</font></h3>
 					</div>
 					
 					<div class="col-lg-6">
 						<div id="chartSouth" ></div>
-						<h3 class="text-center">Total Hook Count in Half Year：317</h3>
+						<h3 class="text-center">Total Hook Counts : <font color="red">317</font></h3>
 					</div>
 				</div>
 				<br><br><br><br><br><br><br><br>
 				<div class="row">
 					<div class="col-lg-6">
 						<div id="chartCenter" ></div>
-						<h3 class="text-center">Total Hook Count in Half Year：446</h3>
+						<h3 class="text-center">Total Hook Counts : <font color="red">446</font></h3>
 					</div>
 					
 					<div class="col-lg-6">
 						<div id="chartEast" ></div>
-						<h3 class="text-center">Total Hook Count in Half Year：419</h3>
+						<h3 class="text-center">Total Hook Counts : <font color="red">419</font></h3>
 					</div>
 				</div>
 				
+				<br><br>
 				<div>
-					<h2><a href="https://aiien61will.shinyapps.io/dashboardApp1/" target="_blank">More Details ...</a></h2>
+					<div class="col-lg-12">
+						<a class="btn btn-danger" style="font-size:20px;" align="right" href="https://aiien61will.shinyapps.io/dashboardApp1/" target="_blank">More Details ...</a>
+					</div>	
 				</div>
 				
 			</div>
@@ -159,7 +168,7 @@ p{
 
         var options = {
 	        title: "Northern Area",
-	        width: 700,
+	        width: 600,
 	        height: 500,
 	        bar: {groupWidth: "95%"},
 	        legend: { position: "none" },
@@ -183,7 +192,7 @@ p{
 
         var options = {
 	        title: "Southern Area",
-	        width: 700,
+	        width: 600,
 	        height: 500,
 	        bar: {groupWidth: "95%"},
 	        legend: { position: "none" },
@@ -207,7 +216,7 @@ p{
 
         var options = {
 	        title: "Central Area",
-	        width: 700,
+	        width: 600,
 	        height: 500,
 	        bar: {groupWidth: "95%"},
 	        legend: { position: "none" },
@@ -231,7 +240,7 @@ p{
 
         var options = {
 	        title: "Eastern Area",
-	        width: 700,
+	        width: 600,
 	        height: 500,
 	        bar: {groupWidth: "95%"},
 	        legend: { position: "none" },
