@@ -25,6 +25,18 @@ shinyServer(function(input, output) {
   output$text <- renderText({
     paste("Specialty in ",input$district,": umbrella")
   })
+  
+  output$downloadData <- downloadHandler(
+    filename = function(){
+      paste('ChiayiHookData-', Sys.Date(), '.csv', sep='')
+    },
+    content = function(file) {
+      sep <- switch(input$filetype, "csv" = ",", "tsv" = "\t")
+      
+      # write the file specified by the 'filetype' argument
+      write.table(hooksTable, file, sep = sep, row.names = FALSE)
+    }
+  )
 })
 
 

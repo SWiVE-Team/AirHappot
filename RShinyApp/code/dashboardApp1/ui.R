@@ -21,7 +21,11 @@ shinyUI(
         selectInput("district", "District:", 
                     choices=c("中埔鄉", "竹崎鄉", "梅山鄉")),
         hr(),
-        helpText("Data from all of our sharing.")
+        helpText("Data from all of our sharing."),
+        hr(),
+        radioButtons("filetype", "File type:",
+                     choices = c("csv", "tsv")),
+        downloadButton('downloadData', 'Download')
       ),
       
       # Create a spot for the barplot
