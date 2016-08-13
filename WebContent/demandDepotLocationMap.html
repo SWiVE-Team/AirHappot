@@ -81,60 +81,52 @@
                     </div>
                 </div>
                 
+                <!-- Search Box -->
                 <div class="row">
                 	<div class="col-lg-12">
-                	<div class="panel panel-default">
-						<div class="panel-heading">
-							<div class="panel-title">
-								<h2>Search Box</h2>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<div class="panel-title">
+									<h2>Search Box</h2>
+								</div>
 							</div>
-						</div>
-						<div class="panel-body">
-							<form class="form-inline" id="searchBox">
-								<div class="form-group">
-									<label class="col-sm-3 control-label">Item</label>
-									<div class="col-sm-7">
-										<input type="text" class="form-control" placeholder="item" value="Umbrella">
+							<div class="panel-body">
+								<form class="form-inline" id="searchBox">
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Item</label>
+										<div class="col-sm-10">
+											<input type="text" class="form-control" placeholder="item"
+												value="Umbrella">
+										</div>
 									</div>
-								</div>
-								
-								<div class="form-group">
-									<label class="col-sm-3 control-label">Item Quality</label>
-									<div class="col-sm-7">
-										<input type="number" class="form-control" placeholder="Item Count" value="200">
+
+									<div class="form-group">
+										<label class="col-sm-4 control-label">Item Quality</label>
+										<div class="col-sm-8">
+											<input type="number" class="form-control"
+												placeholder="Item Count" value="200">
+										</div>
 									</div>
-								</div>
-								
-								<div class="form-group">
-									<label class="col-sm-3 control-label">Charge Threshold</label>
-									<div class="col-sm-7">
-										<input type="number" class="form-control" placeholder="Charge threshold" value="650">
+
+									<div class="form-group">
+										<label class="col-sm-4 control-label">Charge Threshold</label>
+										<div class="col-sm-8">
+											<input type="number" class="form-control"
+												placeholder="Charge threshold" value="650">
+										</div>
 									</div>
 									
-									<div class="col-sm-2">
-										<button id="execute" type="button" class="btn btn-danger">execute</button>
+									<div class="form-group">
+										<div class="col-sm-12">
+											<button id="execute" type="button" class="btn btn-danger">execute</button>
+										</div>
 									</div>
-								</div>
-								
-							</form>
+
+								</form>
+							</div>
 						</div>
 					</div>
-                	</div>
                 </div>
-                
-                <!-- map 放置區  -->
-                <div class="row">
-					<div class="col-lg-12">
-						<img id="mapImg" src="./lib/cupertino/images/map/map1.png">
-						<img id="mapImg" src="./lib/cupertino/images/map/map2.png">
-						<img id="mapImg" src="./lib/cupertino/images/map/map3.png">
-					</div>
-                </div>
-
-				<!-- Search Box -->
-				<div class="row">
-					
-				</div>
 
 				<!-- Master List -->
 				<div class="row">
@@ -262,6 +254,16 @@
 					</div>
 				</div>
 				
+				<!-- map 放置區  -->
+                <div class="row">
+					<div class="col-lg-12">
+						<img id="mapImg1" src="./lib/cupertino/images/map/map1.png">
+						<img id="mapImg2" src="./lib/cupertino/images/map/map2.png">
+						<img id="mapImg3" src="./lib/cupertino/images/map/map3.png">
+					</div>
+                </div>
+				
+				
             </div>
         </div>
         <!-- /#page-content-wrapper -->
@@ -286,12 +288,18 @@
 	    $("#detailListA").hide();
 	    $("#detailListB").hide();
 	    $("#detailListC").hide();
+	    $("#mapImg1").hide();
+	    $("#mapImg2").hide();
+	    $("#mapImg3").hide();
 
 	    $("#execute").click(function(e){
 	    	$("#masterList").show();
 	    	$("#detailListA").hide();
 		    $("#detailListB").hide();
 		    $("#detailListC").hide();
+		    $("#mapImg1").show();
+		    $("#mapImg2").show();
+		    $("#mapImg3").show();
 		});
 
 	    
