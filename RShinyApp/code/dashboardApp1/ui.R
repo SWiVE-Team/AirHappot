@@ -1,5 +1,6 @@
 library(shiny)
 library(data.table)
+library(plotly)
 source("global.R")
 
 # Define the overall UI

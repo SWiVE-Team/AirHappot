@@ -1,5 +1,6 @@
 library(shiny)
 library(openxlsx)
+library(plotly)
 source("global.R")
 
 # Define a server for the Shiny app
@@ -12,16 +13,27 @@ shinyServer(function(input, output) {
 #            "梅山鄉"="Meishan")
 #   })
  
-  # Fill in the spot we created for a plot
-  output$hooksPlot <- renderPlot({
-    # Render a barplot
-    barplot(hooksTable[,input$district], 
-            #main=sprintf("%s %s", "Chiayi", distInput),
-            #main = sprintf("%s %s", "Chiayi", input$district),
-            ylab = "Number of Hook",
-            xlab = "Month")
-  })
+#   # Fill in the spot we created for a plot
+#   output$hooksPlot <- renderPlot({
+#     # Render a barplot
+#     barplot(hooksTable[,input$district], 
+#             #main=sprintf("%s %s", "Chiayi", distInput),
+#             #main = sprintf("%s %s", "Chiayi", input$district),
+#             ylab = "Number of Hook",
+#             xlab = "Month")
+#   })
   
+  output$hooksPlot <- renderPlot({
+    #Render a barchart
+    p <- plot_ly(
+          x = c("Feb", "Mar", "Apr", "May", "Jun", "Jul"),
+          y = hooksTable[,input$district],
+          name = sprintf("Number of Hook in %s", input$district),
+          type = "bar"
+        )
+    p
+  })
+ 
   output$text <- renderText({
     paste("Specialty in ",input$district,": umbrella")
   })
