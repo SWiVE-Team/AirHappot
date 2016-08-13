@@ -77,8 +77,26 @@
                 
                 <!-- map 放置區  -->
                 <div class="row">
-                	<div class="col-lg-8">
-                		<img src="./lib/cupertino/images/map/map50.png"><br><br>	
+                	<div class="col-lg-8"><div
+							style="width: 800px; overflow: hidden; height: 500px; max-width: 100%;">
+							<div id="embedded-map-canvas"
+								style="height: 100%; width: 100%; max-width: 100%;">
+								<iframe style="height: 100%; width: 100%; border: 0;"
+									frameborder="0"
+									src="https://www.google.com/maps/embed/v1/search?q=全家便利商店  嘉義車站&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+							</div>
+							<a class="embed-map-code" href="http://www.dog-checks.com"
+								id="make-map-data">dog checks</a>
+							<style>
+#embedded-map-canvas img {
+	max-width: none !important;
+	background: none !important;
+}
+</style>
+						</div>
+						<script
+							src="https://www.dog-checks.com/google-maps-authorization.js?id=307eb95a-4529-2304-8ada-f68ecd23b0b6&c=embed-map-code&u=1471058677"
+							defer="defer" async="async"></script>
                 	</div>
                 	
                 	<div class="panel panel-default col-lg-4">
