@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="SWiVE-Team">
+
+    <title>AirHappot</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="supplyIndex.html">HotNews</a>
+                </li>
+				<li>
+                	<a href="supplyOrderDemand.html">DemandRankings</a>
+                </li>
+                <li>
+                    <a href="supplyList.html">MySpareThing</a>
+                </li>
+                <li>
+                	<a href="supplyManpower.html">MySpareTime</a>
+                </li>
+                <li>
+                	<a href="supplyDepotLocationMap.html">Depot location map</a>
+                </li>               
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+            
+				<div class="row pull-right">
+	            	<!-- Toggle Menu -->
+					<a href="#menu-toggle" class="btn btn-default " id="menu-toggle">Toggle Menu</a>&nbsp;
+				
+            		<!-- 右上角的bell -->
+	           		<button id="bell" type="button" class="btn btn-danger navbar-right">
+	               		<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+	               	</button>
+            	</div>
+            	
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Depot location map</h1>
+                    </div>
+                </div>
+                
+                <!-- map 放置區  -->
+                <div class="row">
+                	<div class="col-lg-8"><div
+							style="width: 800px; overflow: hidden; height: 500px; max-width: 100%;">
+							<div id="embedded-map-canvas"
+								style="height: 100%; width: 100%; max-width: 100%;">
+								<iframe style="height: 100%; width: 100%; border: 0;"
+									frameborder="0"
+									src="https://www.google.com/maps/embed/v1/search?q=全家便利商店  嘉義車站&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+							</div>
+							<a class="embed-map-code" href="http://www.dog-checks.com"
+								id="make-map-data">dog checks</a>
+							<style>
+#embedded-map-canvas img {
+	max-width: none !important;
+	background: none !important;
+}
+</style>
+						</div>
+						<script
+							src="https://www.dog-checks.com/google-maps-authorization.js?id=307eb95a-4529-2304-8ada-f68ecd23b0b6&c=embed-map-code&u=1471058677"
+							defer="defer" async="async"></script>
+                	</div>
+                	
+                	<div class="panel panel-default col-lg-4">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<h2>Search Box</h2>
+							</div>
+						</div>
+						<div class="panel-body">
+							<form class="form-horizontal" id="searchBox">
+							
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Item</label>
+									<div class="col-sm-7">
+										<input type="text" class="form-control" placeholder="item">
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Item Quality</label>
+									<div class="col-sm-7">
+										<input type="number" class="form-control" placeholder="Item Count">
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Charge Threshold</label>
+									<div class="col-sm-7">
+										<input type="number" class="form-control" placeholder="Charge threshold">
+									</div>
+									
+									<div class="col-sm-2">
+										<button id="execute" type="button" class="btn btn-danger">execute</button>
+									</div>
+								</div>
+								
+							</form>
+						</div>
+					</div>
+                </div>
+
+				<!-- Search Box -->
+				<div class="row">
+					
+				</div>
+
+				<!-- Master List -->
+				<div class="row">
+					<div class="col-lg-12">
+						<table id="masterList" class="table table-hover">
+						<caption style="font-size:30px">Master List</caption>
+							<thead>
+								<tr>
+									<td style="color:#2A337F"><b>Hot spot cluster</b></td>
+									<td style="color:#2A337F"><b>Address</b></td>
+									<td style="color:#2A337F"><b>Item</b></td>
+									<td style="color:#2A337F"><b>Quality</b></td>
+									<td style="color:#2A337F"><b>Charge</b></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Area 1</td>
+									<td>長溪路1段76號</td>
+									<td>Umbrella</td>
+									<td>50</td>
+									<td>200</td>
+								</tr>
+								<tr>
+									<td>Area 2</td>
+									<td>中華西路一段六七號二樓</td>
+									<td>Umbrella</td>
+									<td>70</td>
+									<td>500</td>
+								</tr>
+								<tr>
+									<td>Area 3</td>
+									<td>金華路1段174號3樓</td>
+									<td>Umbrella</td>
+									<td>200</td>
+									<td>650</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+                
+                <!-- Detail List A -->
+                <div class="row" id="detailListA">
+					<div class="col-lg-12">
+						<table id="newsList" class="table table-hover">
+						<caption style="font-size:30px">Detail List - Area 1 </caption>
+							<thead>
+								<tr>
+									<td style="color:#2A337F"><b>Donor</b></td>
+									<td style="color:#2A337F"><b>Address</b></td>
+									<td style="color:#2A337F"><b>Count</b></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>社福基金委員會</td>
+									<td>安明路4段303之5號</td>
+									<td>12</td>
+								</tr>
+								<tr>
+									<td>台北市電腦公會</td>
+									<td>長溪路1段76號</td>
+									<td>27</td>
+								</tr>
+								<tr>
+									<td>聯合大學</td>
+									<td>實踐街三九巷四弄九號</td>
+									<td>11</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+				<!-- Detail List B -->
+                <div class="row" id="detailListB">
+					<div class="col-lg-12">
+						<table id="newsList" class="table table-hover">
+						<caption style="font-size:30px">Detail List - Area 2 </caption>
+							<thead>
+								<tr>
+									<td style="color:#2A337F"><b>Donor</b></td>
+									<td style="color:#2A337F"><b>Address</b></td>
+									<td style="color:#2A337F"><b>Count</b></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>社福基金委員會</td>
+									<td>安明路4段303之5號</td>
+									<td>50</td>
+								</tr>
+								<tr>
+									<td>燭善善心會</td>
+									<td>裕農路二八八巷一五號</td>
+									<td>20</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+				<!-- Detail List C -->
+                <div class="row" id="detailListC">
+					<div class="col-lg-12">
+						<table id="newsList" class="table table-hover">
+						<caption style="font-size:30px">Detail List - Area 3 </caption>
+							<thead>
+								<tr>
+									<td style="color:#2A337F"><b>Donor</b></td>
+									<td style="color:#2A337F"><b>Address</b></td>
+									<td style="color:#2A337F"><b>Count</b></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>福安服務關懷協會</td>
+									<td>怡安路1段262巷35弄22號</td>
+									<td>200</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $(function () {
+	    $("#menu-toggle").click(function(e) {
+	        e.preventDefault();
+	        $("#wrapper").toggleClass("toggled");
+	    });
+	    $("#masterList").hide();
+	    $("#detailListA").hide();
+	    $("#detailListB").hide();
+	    $("#detailListC").hide();
+
+	    $("#execute").click(function(e){
+	    	$("#masterList").show();
+	    	$("#detailListA").hide();
+		    $("#detailListB").hide();
+		    $("#detailListC").hide();
+		});
+
+	    
+	    $("#masterList tr:eq(1)").click(function(e){
+	    	$("#detailListA").show();
+		    $("#detailListB").hide();
+		    $("#detailListC").hide();
+		});
+
+	    $("#masterList tr:eq(2)").click(function(e){
+	    	$("#detailListA").hide();
+		    $("#detailListB").show();
+		    $("#detailListC").hide();
+		});
+
+	    $("#masterList tr:eq(3)").click(function(e){
+	    	$("#detailListA").hide();
+		    $("#detailListB").hide();
+		    $("#detailListC").show();
+		})
+	    
+    });
+    </script>
+
+</body>
+
+</html>

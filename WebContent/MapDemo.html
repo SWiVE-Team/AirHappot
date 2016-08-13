@@ -16,9 +16,6 @@
 
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
-    
-    <!-- calendar CSS -->
-	<link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,6 +48,9 @@
                 <li>
                 	<a href="supplyManpower.html">MySpareTime</a>
                 </li>
+                <li>
+                	<a href="supplyDepotLocationMap.html">Depot location map</a>
+                </li>               
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -71,46 +71,37 @@
             	
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>My Spare Time Manager</h1>
+                        <h1>Depot location map</h1>
                     </div>
                 </div>
-                <div>
-					<p style="font-size:18px;color:gray;"><b>The world needs more volunteer like YOU !</b></p>
-				</div>
-				
-				
-				<br>               
-				<div class="row">
-                	<div id="calendar"></div>
-    			</div>
+                
+                <!-- map 放置區  -->
+                <div class="row">
+					<div class="col-lg-8">
+						<div
+							style="width: 500px; overflow: hidden; height: 500px; max-width: 100%;">
+							<div id="embedded-map-canvas"
+								style="height: 100%; width: 100%; max-width: 100%;">
+								<iframe style="height: 100%; width: 100%; border: 0;"
+									frameborder="0"
+									src="https://www.google.com/maps/embed/v1/search?q=全家便利商店  嘉義車站&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+							</div>
+							<a class="embed-map-code" href="http://www.dog-checks.com"
+								id="make-map-data">dog checks</a>
+							<style>
+#embedded-map-canvas img {
+	max-width: none !important;
+	background: none !important;
+}
+</style>
+						</div>
+						<script
+							src="https://www.dog-checks.com/google-maps-authorization.js?id=307eb95a-4529-2304-8ada-f68ecd23b0b6&c=embed-map-code&u=1471058677"
+							defer="defer" async="async"></script>
 
-				<div class="row">
-					<div class="col-lg-4">
-					<table class="table table-hover col-lg-6" id="manpowerlist">
-						<tbody>
-							<tr>
-								<td>iProvided</td>
-								<td><label id="manpowerNumber"></label></td>
-							</tr>
-						</tbody>
-					</table>
 					</div>
 				</div>
-
-				<div class="row" style="padding-top: 10px">
-                	<form class="form-inline" id="list">
-	                    <div class="form-group" >
-	                    	<label class="col-sm-3 control-label">Volunteer</label>
-	                    	<div class="col-sm-7">
-		                    	<input type="number" class="form-control" id="number" placeholder="number">
-		                    </div>
-		                    <div class="col-sm-2">
-			                    <button id="createList" type="button" class="btn btn-danger">Available</button>
-		                    </div>
-		                    
-	                    </div>
-                    </form>
-    			</div>
+				
             </div>
         </div>
         <!-- /#page-content-wrapper -->
@@ -123,48 +114,46 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    
-    <!-- calendar javaScript -->
-	<script src='lib/moment.min.js'></script>
-	<script src='fullcalendar/fullcalendar.js'></script>
-	
+
     <!-- Menu Toggle Script -->
     <script>
     $(function () {
-        var temp;
 	    $("#menu-toggle").click(function(e) {
 	        e.preventDefault();
 	        $("#wrapper").toggleClass("toggled");
 	    });
+	    $("#masterList").hide();
+	    $("#detailListA").hide();
+	    $("#detailListB").hide();
+	    $("#detailListC").hide();
 
-	    $("#calendar").fullCalendar({
-	    	header:{
-		    	left:   'title',
-	    	 	center: '',
-	    	    right:  'today prev,next'
-		    },
-		    height: 500,
-		    dayClick: function dayClick (date, jsEvent, view) {
-		        // change the day's background color just for fun
-		        temp = $(this);
-		        $("#list").hide();
-			    $("#manpowerlist").hide();
-		        $("#list").show();
-		    },
-	    })
-
-	    $("#createList").click(function(){
-	    	temp.css('background-color', 'red');
-	    	$("#manpowerlist").show();
-	    	$("#manpowerNumber").text($("#number").val());
+	    $("#execute").click(function(e){
+	    	$("#masterList").show();
+	    	$("#detailListA").hide();
+		    $("#detailListB").hide();
+		    $("#detailListC").hide();
 		});
+
 	    
-	    $("#list").hide();
-	    $("#manpowerlist").hide();
+	    $("#masterList tr:eq(1)").click(function(e){
+	    	$("#detailListA").show();
+		    $("#detailListB").hide();
+		    $("#detailListC").hide();
+		});
+
+	    $("#masterList tr:eq(2)").click(function(e){
+	    	$("#detailListA").hide();
+		    $("#detailListB").show();
+		    $("#detailListC").hide();
+		});
+
+	    $("#masterList tr:eq(3)").click(function(e){
+	    	$("#detailListA").hide();
+		    $("#detailListB").hide();
+		    $("#detailListC").show();
+		})
 	    
     });
-
-    
     </script>
 
 </body>
