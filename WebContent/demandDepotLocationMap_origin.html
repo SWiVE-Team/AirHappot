@@ -128,11 +128,11 @@
 					</div>
                 </div>
 
-				<!-- Store List -->
+				<!-- Master List -->
 				<div class="row">
 					<div class="col-lg-12">
-						<table id="storeList" class="table table-hover">
-						<caption style="font-size:30px">Store List (&nbsp;<button type="button" class="btn btn-success" style="width:50px;height:30px;"></button> of system recommendations&nbsp;)</caption>
+						<table id="masterList" class="table table-hover">
+						<caption style="font-size:30px">Master List (&nbsp;<button type="button" class="btn btn-success" style="width:50px;height:30px;"></button> of system recommendations&nbsp;)</caption>
 							<thead>
 								<tr>
 									<td style="color:#2A337F"><b>Hot spot cluster</b></td>
@@ -172,12 +172,12 @@
 						</table>
 					</div>
 				</div>
-				
-                <!-- Detail List C -->
-                <div class="row" id="detailListC">
+                
+                <!-- Detail List A -->
+                <div class="row" id="detailListA">
 					<div class="col-lg-12">
-						<table class="table table-hover">
-						<caption style="font-size:30px">Donor List - Area 3 </caption>
+						<table id="newsList" class="table table-hover">
+						<caption style="font-size:30px">Detail List - Area 3 </caption>
 							<thead>
 								<tr>
 									<td style="color:#2A337F"><b>Donor</b></td>
@@ -210,8 +210,8 @@
 				<!-- Detail List B -->
                 <div class="row" id="detailListB">
 					<div class="col-lg-12">
-						<table class="table table-hover">
-						<caption style="font-size:30px">Donor List - Area 2 </caption>
+						<table id="newsList" class="table table-hover">
+						<caption style="font-size:30px">Detail List - Area 2 </caption>
 							<thead>
 								<tr>
 									<td style="color:#2A337F"><b>Donor</b></td>
@@ -234,11 +234,11 @@
 					</div>
 				</div>
 				
-				<!-- Detail List A -->
-                <div class="row" id="detailListA">
+				<!-- Detail List C -->
+                <div class="row" id="detailListC">
 					<div class="col-lg-12">
-						<table class="table table-hover">
-						<caption style="font-size:30px">Donor List - Area 1 </caption>
+						<table id="newsList" class="table table-hover">
+						<caption style="font-size:30px">Detail List - Area 1 </caption>
 							<thead>
 								<tr>
 									<td style="color:#2A337F"><b>Donor</b></td>
@@ -256,58 +256,30 @@
 					</div>
 				</div>
 				
-				<!-- Store Location List -->
-				<div class="row">
+				<!-- map 放置區  -->
+                <div class="row">
 					<div class="col-lg-12">
-						<table id="storeLocationList" class="table table-hover">
-						<caption style="font-size:30px">Store Location List <!-- (&nbsp;<button type="button" class="btn btn-success" style="width:50px;height:30px;"></button> of system recommendations&nbsp;) --></caption>
-							<thead>
-								<tr>
-									<td style="color:#2A337F"><b>Map</b></td>
-									<td style="color:#2A337F"><b>Hot spot cluster</b></td>
-									<td style="color:#2A337F"><b>Address</b></td>
-									<td style="color:#2A337F"><b>Item</b></td>
-									<td style="color:#2A337F"><b>Quality</b></td>
-									<td style="color:#2A337F"><b>Charge</b></td>
-									<td style="color:#2A337F"><b></b></td>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td><img src="./lib/cupertino/images/map/map1.png"></td>
-									<td>Area 1</td>
-									<td>長溪路1段76號</td>
-									<td>Umbrella</td>
-									<td>200</td>
-									<td>650</td>
-									<td><button type="button" class="btn btn-success">Apprise</button></td>
-								</tr>
-								<tr>
-									<td><img src="./lib/cupertino/images/map/map2.png"></td>
-									<td>Area 2</td>
-									<td>中華西路一段六七號二樓</td>
-									<td>Umbrella</td>
-									<td>70</td>
-									<td>500</td>
-									<td><button type="button" class="btn btn-info">Apprise</button></td>
-								</tr>
-								<tr>
-									<td><img src="./lib/cupertino/images/map/map3.png"></td>
-									<td>Area 3</td>
-									<td>金華路1段174號3樓</td>
-									<td>Umbrella</td>
-									<td>50</td>
-									<td>200</td>
-									<td><button type="button" class="btn btn-info">Apprise</button></td>
-								</tr>
-							</tbody>
-						</table>
+						<img id="mapImg1" src="./lib/cupertino/images/map/map1.png"><br><br><br><br>
 					</div>
-				</div>
+                </div>
+                
+                <div class="row">
+					<div class="col-lg-12">
+						<img id="mapImg2" src="./lib/cupertino/images/map/map2.png"><br><br><br><br>
+					</div>
+                </div>
+                
+                <div class="row">
+					<div class="col-lg-12">
+						<img id="mapImg3" src="./lib/cupertino/images/map/map3.png"><br><br><br><br>
+					</div>
+                </div>
+				
 				
             </div>
         </div>
         <!-- /#page-content-wrapper -->
+        
     </div>
     <!-- /#wrapper -->
 
@@ -316,45 +288,46 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>
     $(function () {
-
-    	$("#storeLocationList").hide();
-	    $("#storeList").hide();
-	    $("#detailListA").hide();
-	    $("#detailListB").hide();
-	    $("#detailListC").hide();
-	    
 	    $("#menu-toggle").click(function(e) {
 	        e.preventDefault();
 	        $("#wrapper").toggleClass("toggled");
 	    });
+	    $("#masterList").hide();
+	    $("#detailListA").hide();
+	    $("#detailListB").hide();
+	    $("#detailListC").hide();
+	    $("#mapImg1").hide();
+	    $("#mapImg2").hide();
+	    $("#mapImg3").hide();
 
 	    $("#execute").click(function(e){
-	    	$("#storeLocationList").show();
-	    	$("#storeList").show();
+	    	$("#masterList").show();
 	    	$("#detailListA").hide();
 		    $("#detailListB").hide();
 		    $("#detailListC").hide();
+		    $("#mapImg1").show();
+		    $("#mapImg2").show();
+		    $("#mapImg3").show();
 		});
+
 	    
-	    $("#storeList tr:eq(1)").click(function(e){
+	    $("#masterList tr:eq(3)").click(function(e){
 	    	$("#detailListA").show();
 		    $("#detailListB").hide();
 		    $("#detailListC").hide();
 		});
 
-	    $("#storeList tr:eq(2)").click(function(e){
+	    $("#masterList tr:eq(2)").click(function(e){
 	    	$("#detailListA").hide();
 		    $("#detailListB").show();
 		    $("#detailListC").hide();
 		});
 
-	    $("#storeList tr:eq(3)").click(function(e){
+	    $("#masterList tr:eq(1)").click(function(e){
 	    	$("#detailListA").hide();
 		    $("#detailListB").hide();
 		    $("#detailListC").show();
